@@ -319,17 +319,17 @@ body {
   line-height: 50px;
 }
 
-.contenido-acordeon .contenedor--formulario--final{
+.contenido-acordeon .contenedor--formulario--final {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.contenido-acordeon .acordeon--item{
+.contenido-acordeon .acordeon--item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around ;
+  justify-content: space-around;
 }
 
 .contenido-acordeon input[type="radio"] {
