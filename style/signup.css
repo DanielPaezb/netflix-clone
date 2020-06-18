@@ -188,3 +188,103 @@ body {
   margin-bottom: 15px;
   margin-top: 10px;
 }
+
+/* -----------------------------  RESPONSIVE DESIGN ---------------------------*/
+@media screen and (max-width: 754px) {
+  .contenedor--config-cuenta {
+    width: 60%;
+    margin-bottom: 10px;
+  }
+
+  .contendor--parrafo {
+    width: 32%;
+  }
+}
+
+@media screen and (max-width: 614px) {
+  .contenedor--config-cuenta {
+    width: 60%;
+    margin-bottom: 10px;
+  }
+
+  .contendor--parrafo {
+    width: 43%;
+  }
+}
+
+@media screen and (max-width: 539px) {
+  .contenedor--config-cuenta {
+    width: 60%;
+    margin-bottom: 10px;
+  }
+
+  .contendor--parrafo {
+    width: 43%;
+  }
+
+  .contenedor-opciones {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .lista--footer {
+    padding: 2px;
+  }
+
+  .centrar {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .contenedor--footer {
+    height: 260px;
+  }
+}
+
+@media screen and (max-width: 495px) {
+  .contenedor--config-cuenta {
+    width: 60%;
+    margin-bottom: 10px;
+  }
+
+  .contendor--parrafo {
+    width: 52%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .contenedor--config-cuenta {
+    width: 60%;
+    margin-bottom: 10px;
+  }
+
+  .contendor--parrafo {
+    width: 60%;
+  }
+
+  .contenedor-opciones {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .lista--footer {
+    padding: 2px;
+  }
+
+  .centrar {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .contenedor--footer {
+    height: 290px;
+  }
+
+  .telefono{
+    text-align: center;
+  }
+}
