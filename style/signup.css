@@ -362,3 +362,32 @@ body {
     font-size: 17px;
   }
 }
+
+@media screen and (max-width: 280px) {
+
+  .logo {
+    margin-top: 5px;
+    margin-left: 25px;
+    width: 37%;
+    height: 40px;
+  }
+
+  .contenedor--config-cuenta {
+    width: 95%;
+    margin-bottom: 10px;
+  }
+
+  .contendor--parrafo {
+    width: 85%;
+  }
+
+  .btn-2 {
+    text-align: center;
+    padding: 15px 50px;
+    font-size: 17px;
+  }
+
+  .computador{
+    width: 400px;
+  }
+}
