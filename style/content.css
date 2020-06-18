@@ -204,11 +204,6 @@ body {
   border: 2px solid #e50914;
 }
 
-.trailer:hover {
-  margin: 30px 65px 0;
-  border: 2px solid #fff;
-}
-
 .contenenedor--temporada-cinco {
   width: 100%;
   font-family: Helvetica;
@@ -383,6 +378,7 @@ body {
 
 /*------------------------------------------------------- RESPONSIVE DESING -------------------------------------------------*/
 @media screen and (max-width: 919px) {
+  /*---- bien ----*/
   .logo {
     padding: 8px 0 0;
     width: 135px;
@@ -399,6 +395,7 @@ body {
 }
 
 @media screen and (max-width: 760px) {
+  /*---- bien ----*/
   .logo {
     padding: 8px 0 0;
     width: 110px;
@@ -440,6 +437,7 @@ body {
 }
 
 @media screen and (max-width: 701px) {
+  /*---- bien ----*/
   .logo--pelicula {
     margin-top: 120px;
     width: 300px;
@@ -480,12 +478,24 @@ body {
   }
 }
 
+@media screen and (max-width: 560px) {
+  /*---- bien ----*/
+  .a {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 595px) {
+  /*---- bien ----*/
   .contenedor--fondo {
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)),
       url(https://i.ibb.co/D9JLGxd/pqtwDc.jpg);
     background-size: cover;
+  }
+
+  .a {
+    display: none;
   }
 
   .contenedor--estreno {
@@ -528,6 +538,7 @@ body {
 }
 
 @media screen and (max-width: 400px) {
+  /*---- bien ----*/
   .contenedor--fondo {
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)),
@@ -582,6 +593,26 @@ body {
   }
 }
 
+@media screen and (max-width: 368px) {
+  /* ---- Bien ---*/
+  .btn {
+    width: 200px;
+  }
+
+  .btn--iniciar-sesion {
+    width: 200px;
+  }
+
+  .x {
+    display: none;
+  }
+
+  .trailer {
+    width: 260px;
+    margin: 44px;
+  }
+}
+
 @media screen and (max-width: 330px) {
   .btn {
     width: 250px;
@@ -597,7 +628,7 @@ body {
 
   .trailer {
     width: 250px;
-    margin: 50px;
+    margin: 34px;
   }
 
   .x {
@@ -609,7 +640,7 @@ body {
     width: 200px;
   }
 
-  .parrafo--sinopsis{
+  .parrafo--sinopsis {
     width: 200px;
   }
 }
