@@ -220,10 +220,7 @@ body {
 }
 
 @media screen and (max-width: 539px) {
-
   .logo {
-    margin-top: 5px;
-    margin-left: 25px;
     width: 20%;
     height: 45px;
   }
@@ -259,7 +256,6 @@ body {
 }
 
 @media screen and (max-width: 495px) {
-
   .logo {
     margin-top: 5px;
     margin-left: 25px;
@@ -278,7 +274,6 @@ body {
 }
 
 @media screen and (max-width: 400px) {
-
   .logo {
     width: 30%;
     height: 45px;
@@ -313,7 +308,6 @@ body {
 }
 
 @media screen and (max-width: 360px) {
-
   .logo {
     margin-top: 5px;
     margin-left: 25px;
@@ -339,7 +333,6 @@ body {
 }
 
 @media screen and (max-width: 300px) {
-
   .logo {
     margin-top: 5px;
     margin-left: 25px;
@@ -363,8 +356,22 @@ body {
   }
 }
 
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 290px) {
+  .select--idioma {
+    margin-top: 30px;
+    padding: 8px 10px 10px 10px;
+  }
 
+  .computador {
+    width: 290px;
+  }
+
+  .contenedor--footer {
+    height: 325px;
+  }
+}
+
+@media screen and (max-width: 280px) {
   .logo {
     margin-top: 5px;
     margin-left: 25px;
@@ -387,7 +394,16 @@ body {
     font-size: 17px;
   }
 
-  .computador{
+  .computador {
     width: 400px;
+  }
+
+  .contenedor--footer {
+    padding: 0px 10px;
+  }
+
+  .select--idioma {
+    margin-top: 20px;
+    padding: 10px 15px 12px 10px;
   }
 }
