@@ -634,7 +634,7 @@ body {
   }
 
   .contenedor--smarphone-img img {
-    width: 500px;
+    width: 300px;
     height: 300px;
   }
 
@@ -797,12 +797,20 @@ body {
     text-align: center;
     font-size: 16.2px;
   }
+
+  .mac {
+    margin: 0 0 0 100px;
+  }
 }
 
 @media screen and (max-width: 653px) {
   .titulo {
     font-size: 27px;
     line-height: 30px;
+  }
+
+  .mac {
+    margin: 0 0 0 100px;
   }
 }
 
@@ -944,6 +952,12 @@ body {
 
   .anuncio--smart {
     font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  .mac {
+    margin: 0 0 0 90px;
   }
 }
 
