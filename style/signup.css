@@ -202,6 +202,13 @@ body {
 }
 
 @media screen and (max-width: 614px) {
+  .logo {
+    margin-top: 5px;
+    margin-left: 25px;
+    width: 18%;
+    height: 45px;
+  }
+
   .contenedor--config-cuenta {
     width: 60%;
     margin-bottom: 10px;
@@ -213,6 +220,14 @@ body {
 }
 
 @media screen and (max-width: 539px) {
+
+  .logo {
+    margin-top: 5px;
+    margin-left: 25px;
+    width: 20%;
+    height: 45px;
+  }
+
   .contenedor--config-cuenta {
     width: 60%;
     margin-bottom: 10px;
@@ -244,6 +259,14 @@ body {
 }
 
 @media screen and (max-width: 495px) {
+
+  .logo {
+    margin-top: 5px;
+    margin-left: 25px;
+    width: 25%;
+    height: 45px;
+  }
+
   .contenedor--config-cuenta {
     width: 60%;
     margin-bottom: 10px;
@@ -255,6 +278,12 @@ body {
 }
 
 @media screen and (max-width: 400px) {
+
+  .logo {
+    width: 30%;
+    height: 45px;
+  }
+
   .contenedor--config-cuenta {
     width: 60%;
     margin-bottom: 10px;
@@ -262,12 +291,6 @@ body {
 
   .contendor--parrafo {
     width: 60%;
-  }
-
-  .contenedor-opciones {
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
   }
 
   .lista--footer {
@@ -284,7 +307,58 @@ body {
     height: 290px;
   }
 
-  .telefono{
+  .telefono {
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 360px) {
+
+  .logo {
+    margin-top: 5px;
+    margin-left: 25px;
+    width: 30%;
+    height: 45px;
+  }
+
+  .contenedor--config-cuenta {
+    width: 70%;
+    margin-bottom: 10px;
+  }
+
+  .contendor--parrafo {
+    width: 65%;
+  }
+
+  .contenedorhijo--logo {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 64px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+
+  .logo {
+    margin-top: 5px;
+    margin-left: 25px;
+    width: 30%;
+    height: 45px;
+  }
+
+  .contenedor--config-cuenta {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  .contendor--parrafo {
+    width: 80%;
+  }
+
+  .btn-2 {
+    text-align: center;
+    padding: 15px 70px;
+    font-size: 17px;
   }
 }
