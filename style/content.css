@@ -478,6 +478,20 @@ body {
   }
 }
 
+
+@media screen and (max-width: 657px){
+  .xa{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 657px){
+  .xe{
+    display: none;
+  }
+}
+
+
 @media screen and (max-width: 560px) {
   /*---- bien ----*/
   .a {
@@ -534,6 +548,27 @@ body {
 
   .Contenedor--trailer {
     height: 2000px;
+  }
+}
+
+@media screen and (max-width: 526px) {
+  .trailer {
+    width: 400px;
+    margin: 44px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .trailer {
+    width: 365px;
+    margin: 44px;
+  }
+}
+
+@media screen and (max-width: 434px) {
+  .trailer {
+    width: 325px;
+    margin: 44px;
   }
 }
 
@@ -642,5 +677,10 @@ body {
 
   .parrafo--sinopsis {
     width: 200px;
+  }
+
+  .contenedor--anuncio-pelicula {
+    width: 70%;
+    padding: 10px;
   }
 }
